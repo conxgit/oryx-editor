@@ -13,7 +13,17 @@
 	<description>The backend of the oryx editor,such as servelt,filter etc..</description>
 	<dependencies>
 		<dependency>
-			<groupId>org.jasig.cas</groupId>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>2.4</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.transaction</groupId>
+			<artifactId>jta</artifactId>
+			<version>1.0.1B</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jasig.cas.client</groupId>
 			<artifactId>cas-client-core</artifactId>
 			<version>3.1.12</version>
 		</dependency>
@@ -57,7 +67,7 @@
 			</exclusions>
 		</dependency>
 		<dependency>
-			<groupId>batik</groupId>
+			<groupId>org.apache.xmlgraphics</groupId>
 			<artifactId>batik-codec</artifactId>
 			<version>1.7</version>
 		</dependency>
